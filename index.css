@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin-top: 70px;
+  background: #333;
+}
+
+.contain-item{
+  width: 330px;
+  margin: 0 auto;
+  color: #fff;
+}
+.text-center{
+  text-align: center;
+}
+.text{
+  font-weight: 300;
+}
+input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #333;
+  padding-left: 15px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin: 10px auto;
+}
+input::-webkit-input-placeholder{
+  color: #333;
+}
+input:focus{
+  border: 1px solid #6d79e7;
+}
+#output{
+  visibility: hidden;
+}
+h4{
+  width: 300px;
+  height: 35px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-left: 15px;
+  border: 1px solid #726f6f;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px 0;
+}
